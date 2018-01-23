@@ -1,0 +1,49 @@
+.container {
+    width: 80%;
+    margin: 120px auto;
+}
+
+.div1 {
+    float: left; 
+    width:96%;
+    height: 100px;
+    outline: 1px solid red;
+    background-color: lightblue;
+
+}
+
+.div2 {
+    float: left; 
+    width:48%;
+    height: 300px;
+    outline: 1px solid red;
+    background-color: lightgreen;
+
+}
+
+.div3 {
+    float: left; 
+    width:48%;
+    height: 150px;
+    outline: 1px solid red;
+    background-color: lightsalmon;
+
+}
+
+.div4 {
+    float: left; 
+    width:48%;
+    height: 150px;
+    outline: 1px solid red;
+    background-color: lightpink;
+
+}
+
+.div5 {
+    float: left; 
+    width:96%;
+    height: 100px;
+    outline: 1px solid rgb(56, 22, 150);
+    background-color: rgba(165, 42, 42, 0.185);
+
+}

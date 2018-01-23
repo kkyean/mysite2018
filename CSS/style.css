@@ -1,0 +1,20 @@
+h1 {
+        font-family: "courier";
+        font-weight: bold; 
+        text-shadow: 5px 5px 5px gray
+}
+span {
+    background-color: red
+}
+
+.writer {
+    font-size: 15;
+    font-style: italic;
+    color: red;
+    
+}
+.content {
+    font-size: 20;
+    font-family: "Times new Romans";
+    background-color: blue;
+}
