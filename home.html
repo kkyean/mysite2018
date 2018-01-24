@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Bootstrap walkthrough">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Kong Kam Yean">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My First Bootstrap Page</title>
+
+
+    <!-- copy and paste from W3School Bootstrap MAXCDN to reference the CSS in the Content Delivery Network (CDN) -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- font awesome CDN embed code -->
+    <script src="https://use.fontawesome.com/fb5887414c.js"></script>
+
+    <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip(); 
+            });
+            </script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>My First Bootstrap Page</h1>
+            <p>This is some text.</p>
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">WebSiteName</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#">FEEDBACK</a>
+                </li>
+            </ul>
+            <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                    <input type="text" placeholder="Search" class="form-control" />
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav <div class="container-fluid">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <div style="padding:10px 10px 10px 10px; float:left; width:80%;" <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 text-justify">
+            <h3>About Myself</h3>
+            <hr>
+            <p>
+                I am a seasoned leader in large organisations with 20+ years experience in change management, systems thinking, learning
+                and organisation development, product development and project management. I have a unique combination of
+                expertise in management, technology, operation, training design and has deep experiences working with governments.
+                One of my key accomplishments was leading the SAF (Singapore Armed Forces) Learning Transformation which
+                saw the courses in 20 SAF training institutions become more learner-centric, leveraging mobile devices, enterprise
+                IT, and e-learning content. I am familiar with a wide array of technologies, ranging from military equipment,
+                weapon and command control systems, enterprise IT systems, Learning Portal, Learning Management System, data
+                analytics, simulation and gaming technologies including virtual and augmented reality. Additionally, I have
+                extensive experience working with procurement agencies, government agencies, foreign militaries, industries,
+                engineers (hardware, software, human factor engineers), academia and consultants. My key strength is in the
+                ability to marry up new technology with management to transform organizations.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 text-center">
+                <h2>Left side text</h2>
+                Left side paragraph
+                <p>
+                    <a href="#" class="btn btn-default" role="button">View Details</a>
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center">
+                <h2>Center text</h2>
+                Center paragraph
+                <p>
+                    <a href="#" class="btn btn-default" role="button">View Details</a>
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center">
+                <h2>Right side text</h2>
+                Right side paragraph
+                <p>
+                    <a href="#" class="btn btn-default" role="button">View Details</a>
+                </p>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <hr>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-4 panel panel-default">
+            <h3 class="text-center">Operating Hours</h3>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday to Thursady</td>
+                        <td>0900 - 1700 hrs</td>
+                    </tr>
+                        <td>Friday and Saturday</td>
+                        <td>1100 - 1500 hrs</td>
+                </tbody>
+
+            </table>
+
+
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe src="https://goo.gl/KUBB7L" class="responsive-embed"></iframe>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <h3>Check me out</h3>
+            <br>
+            <div class="list-group">
+                <a href="#" class="list-group-item"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>kkyean@gmail.com</a>
+                <a href="#" class="list-group-item"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>999-9999</a>
+                <a href="#" class="list-group-item"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>Linkedin link</a>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <hr>
+
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <ul class="list-inline">
+                <li>
+                    <a href="https://www.facebook.com" data-toggle="tooltip" title="Go to Facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+
+                </li>
+                <li>
+                    <a href="#"" data-toggle="tooltip" title="go to instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+
+                </li>
+                <li>
+                    <a href="#""><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+
+                </li>
+            </ul>
+    
+        </div>
+
+    </div>
+
+    <footer style="text-align:center">
+        Copyright &copy; 2018. KKY
+    </footer>
+
+    </div>
+</body>
+
+</html>
